@@ -1,0 +1,163 @@
+.title {
+    background-image: url('images/copy.jpg');
+    position: fixed;
+    height: 130px;
+    width: 1400px;
+    background-color: rgb(65, 8, 8);
+    color: rgb(238, 132, 46);
+    
+}
+
+.title2 {
+    background-image: url('images/web.jpg');
+    
+    
+    top:130px;
+    position:fixed;
+    height:550px;
+    width: 200px;
+    margin:0;
+    padding: 0;
+    background-color: rgba(129, 41, 41, 0.616);
+    color: rgb(77, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    
+}
+
+.title3 {
+    top:150px;
+    position:fixed;
+    background-color: black;
+    height:50px;
+    width: 180px;
+    margin:0;
+    left:10px;
+    padding: 0;
+    color: rgb(212, 90, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    box-shadow: 0 0 10px rgb(241, 90, 30);
+}
+
+.title4 {
+    top:220px;
+    position:fixed;
+    background-color: black;
+    height:50px;
+    width: 180px;
+    margin:0;
+    left:10px;
+    padding: 0;
+    color: rgb(223, 108, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    box-shadow: 0 0 10px rgb(241, 90, 30);
+    
+}
+
+.title5 {
+    top:290px;
+    position:fixed;
+    background-color: black;
+    height:50px;
+    width: 180px;
+    margin:0;
+    left:10px;
+    padding: 0;
+    color: rgb(223, 108, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    box-shadow: 0 0 10px rgb(241, 90, 30);
+    
+}
+
+.title6 {
+    top:360px;
+    position:fixed;
+    background-color: black;
+    height:50px;
+    width: 180px;
+    margin:0;
+    left:10px;
+    padding: 0;
+    color: rgb(223, 108, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    box-shadow: 0 0 10px rgb(241, 90, 30);
+    
+}
+
+
+.student {
+color: black;
+background-color: rgb(233, 122, 31);
+height: 200px;
+width: 100px;
+top:100px;
+left:100px;
+}
+
+
+.table {
+    position:fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    color: black;
+    top:270px;
+    left:300px;
+    width:1000px;
+    height:300px;
+    background-color: rgb(231, 92, 28);
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgb(241, 90, 30);
+    
+}
+
+.back {
+    background-image: url('images/darkweb4.jpg');
+    
+    
+    position: fixed;
+    background-color: rgb(49, 44, 44);
+    color: rgb(252, 112, 18);
+    left: 200px;
+    top:130px;
+    width: 1200px;
+    height: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    
+    
+
+}
+
+.border {
+    position:fixed;
+    color: rgb(240, 161, 13);
+    position:fixed;
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 280px;
+    top:150px;
+    left:300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: larger;
+    box-shadow: 0 0 10px rgb(241, 90, 30);
+    
+}
+
+.button {
+    box-shadow: 0 0 10px rgb(216, 31, 7);
+    border-radius: 10px;
+    background-color: black;
+    color: rgb(248, 152, 41);
+}
