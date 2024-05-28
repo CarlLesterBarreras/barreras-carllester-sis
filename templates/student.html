@@ -24,7 +24,7 @@
    
 
  <div class="back">
-    <br><br><br><br><center>Student List</center>
+    <br><br><br><br><center>    </center>
  </div>
 
  <div class="border">
@@ -35,63 +35,32 @@
     <table class="table is-bordered">
         <thead>
             <tr>
-                <th>STUDENT ID</th>
-                <th>NAME</th>
-                <th>SEX</th>
-                <th>ADDRESS</th>
-                <th>COURSE</th>
+                <th>StudentID</th>
+                <th>LName</th>
+                <th>FName</th>
+                <th>Mname</th>
+                <th>Sex</th>
+                <th>Birthday</th>
+                <th>Address</th>
+                <th>Course ID</th>
+                <th>Action</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-
-        </tbody>
+        
+        {% for student in students %}
+        <tr>
+            <td> {{ student[0] }}</td>
+            <td> {{ student[1] }}</td>
+            <td> {{ student[2] }}</td>
+            <td> {{ student[3] }}</td>
+            <td> {{ student[4] }}</td>
+            <td> {{ student[5] }}</td>
+            <td> {{ student[6] }}</td>
+            <td> {{ student[7] }}</td>
+            <td><center><button class="button">Edit</button>      <button class="button">Delete</button></center></td>
+            
+        </tr>
+        {% endfor %}
     </table>
 </div>
 </div>

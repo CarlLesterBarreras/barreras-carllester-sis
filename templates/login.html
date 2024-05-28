@@ -16,7 +16,8 @@
     
  <br>
  <br>
-   <center><from class="box">
+<center>
+<from class="box">
     <br>
     <br>
     <br>
@@ -25,21 +26,26 @@
     <center><div class="title">LOGIN</div></center>
     <div class="field">
         <label class="label">USERNAME</label>
+
+<form action="check-user" method="POST">
+
+        
         <div class="control">
-            <input class="input" type="username" placeholder="e.g. carl@example.com"/>
+            <input class="input" name="username" type="username" placeholder="e.g. carl@example.com"/>
                     </div>
     </div>
 
     <div class="field">
         <label class="label">PASSWORD</label>
         <div class="control">
-            <input class="input" type="passowrd" placeholder="************"/>
+            <input class="input" name="password" type="password" placeholder="************"/>
                     </div>
     </div>
     <center>
-        <button class="button">LOGIN</button>
-    </center>
-   </from>
+        <button class="button" type="submit">LOGIN</button>
+</center>
+</form>
+</from>
 </center>
 
 <div class="back">
